@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.length==2
     return array.join(" and ")
   else
-    while x<(array.length-1)
+    while x+1<(array.length)
       holder_string += (array[x]+", ")
       x+=1
     end
