@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     x=0
     while (x+1)<array.length
-      holder_string<<"#{array[x]}, "
+      holder_string<<array[x]+", "
       x+=1
     end
     holder_string<<"and #{array.last}"
