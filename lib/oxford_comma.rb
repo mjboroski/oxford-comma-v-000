@@ -9,5 +9,5 @@ def oxford_comma(array)
       x+=1
     end
     holder_string+= "and #{array.last}"
-  end  
+  end
 end
